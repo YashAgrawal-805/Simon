@@ -29,7 +29,7 @@ function problem_generator(level_number) {
 }
 
 if (document.querySelector("h1").textContent === "Press A key to Start Game") {
-    document.querySelector("body").addEventListener("keypress", function (event) {
+    document.querySelector(".Start").addEventListener("click", function (event) {
         level_number = 1;
         var audio = new Audio("button-1.mp3");
         audio.play();
