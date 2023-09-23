@@ -23,7 +23,18 @@ h1{
     margin-bottom: 12vh;
     color: #FEF2BF;
 }
-
+.Start{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: magenta;
+    height: 30px;
+    width: 70px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color:black ;
+    border-width: 3px;
+}
 .container{
     display: flex;
     flex-wrap: wrap;
